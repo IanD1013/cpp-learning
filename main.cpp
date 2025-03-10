@@ -3,12 +3,14 @@
 using namespace std;
 
 int main() {
-    cout << "Enter a value: ";
+    double price = 99.99;
+    float interestRate = 3.67f;
+    long fileSize = 9000L;
+    char letter = 'a';
+    bool isValid = true;
 
-    int value;
-    cin >> value;
-
-    cout << value << endl;
+    int number {};
+    cout << number;
 
     return 0;
 }
