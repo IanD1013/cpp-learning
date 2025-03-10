@@ -3,13 +3,12 @@
 using namespace std;
 
 int main() {
-    int x = 10;
-    int y = 20;
-    cout << "x = " << x << endl
-         << "y = " << y << endl;
+    cout << "Enter a value: ";
 
-    double sales = 95000;
-    cout << "Sales: $" << sales << endl;
+    int value;
+    cin >> value;
+
+    cout << value << endl;
 
     return 0;
 }
