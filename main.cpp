@@ -4,9 +4,10 @@
 using namespace std;
 
 int main() {
-    int numbers[5] = {10, 20};
-    cout << numbers << endl;    // address in memory
-    cout << numbers[2] << endl; // 0
+    int x = 1;
+    double y = 2.0;
+    int z = x + static_cast<int>(y);
+    cout << z << endl;
 
     return 0;
 }
