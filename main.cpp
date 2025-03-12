@@ -1,17 +1,14 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
-    const short minValue = 1;
-    const short maxValue = 6;
+    // cout << left;
+    // cout << setw(10) << "Spring" << setw(10) << "Nice" << endl
+    //      << setw(10) << "Summer" << setw(10) << "Hot";
 
-    srand(time(nullptr));
-    short first = (rand() % (maxValue - minValue + 1)) + minValue;
-    short second = (rand() % (maxValue - minValue + 1)) + minValue;
+    cout << fixed << setprecision(10) << 12.34567;
 
-    cout << first << ", " << second << endl;
     return 0;
 }
