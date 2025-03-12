@@ -3,10 +3,9 @@
 using namespace std;
 
 int main() {
-    int number = 0b11111111;
-    int number2 = 0xff;
-    unsigned int number3 = 0xff;
-    cout << number;
+    int number = 1'000'000;
+    short another = number;
+    cout << another << endl;
 
     return 0;
 }
