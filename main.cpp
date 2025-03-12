@@ -4,11 +4,13 @@
 using namespace std;
 
 int main() {
-    bool isNewUser = false;
-    cout << isNewUser << endl;
-    // true -> 1; false -> 0
+    char ch = 'a';
+    cout << ch << endl;
+    cout << +ch << endl;
 
-    cout << boolalpha << isNewUser << endl;
-    cout << noboolalpha << isNewUser << endl;
+    string name;
+    cout << "Enter your name: ";
+    getline(cin, name);
+    cout << "Hi " << name << endl;
     return 0;
 }
