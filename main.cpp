@@ -3,13 +3,9 @@
 using namespace std;
 
 int main() {
-    double price = 99.99;
-    float interestRate = 3.67f;
-    long fileSize = 9000L;
-    char letter = 'a';
-    bool isValid = true;
-
-    int number {};
+    int number = 0b11111111;
+    int number2 = 0xff;
+    unsigned int number3 = 0xff;
     cout << number;
 
     return 0;
